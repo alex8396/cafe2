@@ -22,7 +22,7 @@ public class ProductController {
 	@GetMapping("getAllProducts")
 	public List<Product> getAllProducts(){
 		try {
-			System.out.println("getAllProducts 실행됨");
+			
 			return productService.getAllproducts();
 		} catch (Exception e) {			
 			e.printStackTrace();
